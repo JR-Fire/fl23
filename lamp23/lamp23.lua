@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 data:extend({
   {
     type = "lamp",
@@ -9,6 +10,7 @@ data:extend({
     corpse = "small-remnants",
     collision_box = {{-0.15, -0.15}, {0.15, 0.15}},
     selection_box = {{-0.5, -0.5}, {0.5, 0.5}},
+    fast_replaceable_group = "lamps",
     vehicle_impact_sound =  { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
     energy_source =
     {
@@ -124,6 +126,7 @@ data:extend({
     corpse = "small-remnants",
     collision_box = {{-0.15, -0.15}, {0.15, 0.15}},
     selection_box = {{-0.5, -0.5}, {0.5, 0.5}},
+    fast_replaceable_group = "lamps",
     vehicle_impact_sound =  { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
     energy_source =
     {
