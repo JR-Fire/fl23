@@ -1,7 +1,7 @@
 ## Synopsis
 
 Larger lamp projectors - 2-by-2 and 3-by-3 tiles wide
-Based on the base game and <who>'s mod
+Based on the base game
 
 ## Code Example
 
