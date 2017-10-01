@@ -9,7 +9,6 @@ data:extend({
     corpse = "small-remnants",
     collision_box = {{-0.15, -0.15}, {0.15, 0.15}},
     selection_box = {{-0.5, -0.5}, {0.5, 0.5}},
-    drawing_box = {{-0.5, -2.8}, {0.5, 0.5}},
     vehicle_impact_sound =  { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
     energy_source =
     {
@@ -30,7 +29,7 @@ data:extend({
       frame_count = 1,
       axially_symmetrical = false,
       direction_count = 1,
-      shift = {-0.015625, 0.15625},
+      shift = {1.4, -1.0}
     },
     picture_on =
     {
@@ -41,7 +40,7 @@ data:extend({
       frame_count = 1,
       axially_symmetrical = false,
       direction_count = 1,
-      shift = {-0.03125, -0.03125},
+      shift = {1.4, -1.0}
     },
     signal_to_color_mapping =
     {
@@ -76,7 +75,7 @@ data:extend({
     icon = "__lamp23__/graphics/icons/lamp4.png",
     flags = {"goes-to-quickbar"},
     subgroup = "circuit-network",
-    order = "a[light]-a[simple-lamp]",
+    order = "a[light]-d[small-lamp]",
     place_result = "lamp2",
     stack_size = 50
   },
@@ -87,7 +86,7 @@ data:extend({
     ingredients =
     {
       {"small-lamp", 4},
-      {"copper-cable", 4},
+      {"medium-electric-pole", 1},
     },
     result = "lamp2"
   },
@@ -100,7 +99,7 @@ data:extend({
     icon = "__lamp23__/graphics/icons/lamp10.png",
     flags = {"goes-to-quickbar"},
     subgroup = "circuit-network",
-    order = "a[light]-a[lamp2]",
+    order = "a[light]-h[small-lamp]",
     place_result = "lamp3",
     stack_size = 50
   },
@@ -125,7 +124,6 @@ data:extend({
     corpse = "small-remnants",
     collision_box = {{-0.15, -0.15}, {0.15, 0.15}},
     selection_box = {{-0.5, -0.5}, {0.5, 0.5}},
-    drawing_box = {{-0.5, -2.8}, {0.5, 0.5}},
     vehicle_impact_sound =  { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
     energy_source =
     {
@@ -146,7 +144,7 @@ data:extend({
       frame_count = 1,
       axially_symmetrical = false,
       direction_count = 1,
-      shift = {-0.015625, 0.15625},
+      shift = {1.4, -1.0}
     },
     picture_on =
     {
@@ -157,7 +155,7 @@ data:extend({
       frame_count = 1,
       axially_symmetrical = false,
       direction_count = 1,
-      shift = {-0.03125, -0.03125},
+      shift = {1.4, -1.0}
     },
     signal_to_color_mapping =
     {
