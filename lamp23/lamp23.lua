@@ -1,4 +1,3 @@
-<<<<<<< Updated upstream
 data:extend({
   {
     type = "lamp",
